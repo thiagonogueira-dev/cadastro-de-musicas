@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro</title>
+    <link rel="stylesheet" href="./css/styleRegistro.css">
+</head>
+<body>
+    <div class="login">
+        <div class="first">
+            <p>Cadastro</p>
+            <form action="/projeto_musica/Control" method="get">
+                <div class="input">
+                    <label>Nome:</label>
+                    <input class="validation" type="text" name="nome">
+                </div>
+                <div class="input">
+                    <label>Login:</label>
+                    <input class="validation" id="v2" type="text" name="login">
+                </div>
+                <div class="input">
+                    <label>Senha:</label>
+                    <input class="validation" type="password" name="senha">
+                </div>
+                <input type="hidden" name="acao" value="UsuarioAdicionar">
+                <input class="btn-login" type="submit" value="Cadastre-se">
+            </form>
+        </div>
+        <a href="index.jsp">Voltar</a>
+    </div>
+</body>
+</html>
